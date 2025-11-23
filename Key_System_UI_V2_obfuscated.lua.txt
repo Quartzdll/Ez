@@ -1,0 +1,540 @@
+local _ZW_d=function()if debug and debug.getinfo then local _ZW_i=debug.getinfo(1)if _ZW_i and(_ZW_i.what=="C"or _ZW_i.name)then error("Debug")end end end;_ZW_d();local _ZW_b={"getfenv","setfenv","loadstring","debug","rawget","rawset","load"}for _,_ZW_f in pairs(_ZW_b)do if _G[_ZW_f]then local _ZW_o=_G[_ZW_f]_G[_ZW_f]=function(...)error("Protected")end end end;local _ZW_m={__metatable="L",__index=function()error("Protected")end}for _ZW_k,_ZW_v in pairs(_G)do if type(_ZW_v)=="function"then setmetatable(_ZW_v,_ZW_m)end end;local _ZW_h=setmetatable({},{__mode="k"})local _ZW_g=function()collectgarbage("collect")end;_ZW_g();local _ZW_iv=172065889local _ZW_vf=function()if 705504152~=_ZW_iv then error("Corrupted")end end;_ZW_vf();local _ZW_a={[1]="NSgelYSwys",[2]="JsrUEpSdEK",[3]="ccjqOvMPsc",[4]="mlDiYLXEVv",[5]="bctrVwdxDP",[6]="yiHVKrTPNk",[7]="xzesiTLbAD",[8]="KflffBfASg",[9]="BsFzwITeTF",[10]="tvFsEiJnBc",[11]="IhGPonkaKA",[12]="GZonUkRPoA",[13]="ngWHvOyrzh",[14]="JyaZFmgucZ",[15]="mAVsJGWUxe",[16]="bUXQivjLXG",[17]="kXrMfysyQT",[18]="CwhflgZkVg",[19]="WbowzFSnAb",[20]="VvDkBQLOFh",[21]="BmjCqTMamm",[22]="fodDIxcoGp",[23]="sOHfvtVcaL",[24]="dXdHtnJagB",[25]="jdpkjuykyj",[26]="pTLjPMdUFN",[27]="cXHMjYLBDl",[28]="TsjbHtvoYk",[29]="yCWTzIumFW",[30]="YGfBTITGBT",[31]="CoCCtxnmpi",[32]="fOoWRGnBHp",[33]="uVZvRNYAjV",[34]="RUyawszjYk",[35]="QXzFscUpwV",[36]="uLQAqVudEi",[37]="KLIdQAreew",[38]="sXJnhVofgz",[39]="mCBLkboohO",[40]="BjhyWcMtyj",[41]="FoKAKmhepq",[42]="UCZhOlMxjM",[43]="bqNlAYSIDR",[44]="auhORVYJRV",[45]="LDOVpNEvdi",[46]="EUKRQZtxrg",[47]="dzgawQaRRp",[48]="iIWLwabbni",[49]="fiSkGDlXdq",[50]="qhIUoBFvrK",[51]="lVziQhRfuv",[52]="VHUwxeZojS",[53]="RQKNNScNlp",[54]="ryZMsegPna",[55]="hSccKMWicz",[56]="eJyKuphBNc",[57]="pVVDHEAWrw",[58]="uwBAicRceg",[59]="UfGivFJbBN",[60]="BfblaZAumZ",[61]="ndwmBWqzQB",[62]="oACfRFypAA",[63]="qPVBiskatv",[64]="vTFKzuzzYb",[65]="CKDaClJZcn",[66]="gKyUFZjYcL",[67]="afOtQozNFE",[68]="DwWkuSdmEG",[69]="ZcsMPYZoUs",[70]="DslBFPGMKl",[71]="nwjauWmGzV",[72]="cDNAiyjhxB",[73]='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef',[74]='ghijklmnopqrstuvwxyz0123456789+/',[75]='[^',[76]='=]',[77]='',[78]='.',[79]='=',[80]='1',[81]='0',[82]='%d%d%d?',[83]='%d?%d?%',[84]='d?%d?%d',[85]='?',[86]="",[87]="OXl9bX1US0",[88]="l/PoF4fHt9",[89]="cz1AcDd7SE",[90]="RE",[91]="OjJXS",[92]="DZUW1",[93]="J9bTt",[94]="E",[95]="OVVPT3xseXKBNnlIgVc6cz",[96]="5VeVM6bIFZfz51Wzp5dDc=",[97]="OVN9bzxrSj42b",[98]="XV5PFZ5fD1TfW",[99]="19VF9ufW1+_ZW_b=",[100]="=",[101]="OVVPT3xs",[102]="eXKBNnZE",[103]="OXxafjJsfW6ANj",[104]="Z5O1R9VD1VT087",[105]="Mnw9fjJTSDlTWj",[106]="_ZW_c=",[107]="OT8+cz9ASj56V",[108]="0tbgHp9azdAT0",[109]="_ZW_d=",[110]="Pmo+bX1s",[111]="OlB7U1hE",[112]="OXxafjJsfW",[113]="6AQDpbN2pW",[114]="PjdAT0h7SE",[115]="OUA9P3xrV1l+V",[116]="j56OnlKOz18S1",[117]="_ZW_e=",[118]="OUA9P3xrV1l+Vj",[119]="56OnlKOz18S1N/",[120]="a1dZO32BTTtTOT",[121]="OT59bXxq",[122]="S1Q2bF96",[123]="_ZW_f==",[124]="OVN8fjZWOlY8",[125]="_ZW_M==",[126]="OjJbVzJ8cW",[127]="w5Vj52fEAy",[128]="P35VcDd7SE",[129]="OXs9P3xAS2",[130]="w/bXVbgHp9",[131]="PjdAT3A2SE",[132]="OTJbVzJsfVY6MlNIfmt9",[133]="Nn5UPns8bH1yOjZLWDdr",[134]="fXN+_ZW_h=",[135]="OT8+cz9ASj56V0tbgHp9PT1VPT8y",[136]="_ZW_i==",[137]="Omo+czZWcX6AP09bOnmB",[138]="_ZW_j==",[139]="PVRPaXxseUl/UzZNP1NLcD1VT087Mnw9fjJTTTxWOnV/",[140]="_ZW_k==",[141]="OlQ+fztsgWw6",[142]="_ZW_l==",[143]="OVN8fj9VV2o+",[144]="_ZW_m==",[145]="Oj9PezxrV2x9VTpb",[146]="N2pWPj1VPk88WERE",[147]="Oms+Vz9WcD46PnV4gX1Pbz",[148]="_ZW_n=",[149]="OVN5bT9WeXI6No",[150]="F7gHp9Vz5UT1M8",[151]="bHlyPGxfeTxUbX",[152]="_ZW_o=",[153]="PXxbS31rS1l/N",[154]="ldbN2t9PDc/On",[155]="Q2P1+_ZW_p=",[156]="PlU9fnxWeW6A",[157]="_ZW_q==",[158]="PlU9fnxWeW",[159]="6ANldbN2pW",[160]="Pj1VPk88WE",[161]="PlU9fnxWeW6ANj54PFNK",[162]="_ZW_r==",[163]="PlU9fnxWeX",[164]="I3NjZ5gXt9",[165]="cz18PTd7SE",[166]="PVN9bX1W",[167]="eX59U3V6",[168]="_ZW_a==",[169]="f209",[170]="N3tI",[171]="_ZW_t=",[172]="OnlwPz18",[173]="eXM/bYFZ",[174]="_ZW_u==",[175]="N2o9",[176]="QHtI",[177]="PVRPaXxseUl/UzZNP1NLOz5rPT8yMnFsOlc6W4F7Mj43QD5/NjJ5VnxWX3k8QHE/",[178]="Nz8+ajYyeD45Nn1NfG10Oz0yW0Aya1dqNmxfejo/bD89eXlpPGx9aH1XeXs6eoA3",[179]="OlN9Tz9VV2w6",[180]="_ZW_v==",[181]="OVVPT3xseXKBNnlrPF",[182]="NKPD1VPlsya0o+gT51",[183]="djp5Sz85PnltMlhERA",[184]="==",[185]="PmxbV",[186]="zJ8cW",[187]="w5U1h",[188]="PVU9P3xAS2w/",[189]="_ZW_w==",[190]="NzJbVzJs",[191]="fVY6MlBE",[192]="Nz8+cz9A",[193]="Sj56V0tb",[194]="_ZW_x==",[195]="Nz59bTZVV1l+",[196]="_ZW_y==",[197]="OmxafnxscW",[198]="w3NnVYfD8y",[199]="PD1VPX42SE",[200]="OTJtS",[201]="ztsfW",[202]="w6U1h",[203]="OVVPT3xseXKBNnlrPFNKPD",[204]="1VPlsya0o+_ZW_z=",[205]="OkCBc4Fs",[206]="fD1+NoFb",[207]="_ZW_A==",[208]="OkCBczpsOkl+",[209]="_ZW_B==",[210]="Oj8+bX1sOlQ/",[211]="_ZW_C==",[212]="OVVPT3xseXKBNnlo",[213]="fEAyPzpAgXB7SERE",[214]="Oms+VzJs",[215]="fXx7U1hE",[216]="OkCBc4FsfD1+",[217]="_ZW_D==",[218]="OkCBczps",[219]="Okl+NjZ2",[220]="_ZW_E==",[221]="OTJtSzts",[222]="fWw6U1hE",[223]="Oj89fjZ7",[224]="S3KBNkhE",[225]="Oj8+bX1s",[226]="OlQ/bE9Y",[227]="_ZW_F==",[228]="Oj8+bX1sOlR+PnF7",[229]="fmt9Nj0yPTd7SERE",[230]="f2tw",[231]="Onpw",[232]="OkCBc39WcVl/PnVr",[233]="gXoyPz0+eW18WERE",[234]="OkCBczlVS2w5",[235]="_ZW_G==",[236]="Oj8+bX1sOl",[237]="R+PnF7fmt9",[238]="Nj0yPTd7SE",[239]="OXs9OztrVj",[240]="46P1tYOnpX",[241]="cz0/cDd7SE",[242]="OlQ+fztsgWw6Nkt4P1",[243]="R9PD0yS1M/QFdZfj59",[244]="WzdqSjZ+VHA3e0hERA",[245]="OT59VzZr",[246]="V2iAP1dp",[247]="_ZW_H==",[248]="Oj8+bX1sOlR+",[249]="_ZW_I==",[250]="Nz8+cz9ASj56",[251]="_ZW_J==",[252]="PVRPaXxseUl/UzZNP1NLOz5rPT8yMnFsOlc6W4F7Mj",[253]="43QD5/NjJ5VnxWX3k8QHE/Nz8+ajYyeD45Nn1NfG10",[254]="Oz0yW0Aya1dqNmxfejo/bD89eXlpPGx9aH1XeXs6eo",[255]="A3",[256]="Nz59bTZV",[257]="V1l+Mk97",[258]="_ZW_K==",[259]="fkBPTD",[260]="J+_ZW_t=",[261]="PVU9P3xA",[262]="S2w/bXVb",[263]="OlN9Tz9V",[264]="V2w6NoFp",[265]="_ZW_L==",[266]="OVVPT3xseXKBNn",[267]="lrgXlLbzc/PnM2",[268]="VVY8PmlxdjlTWj",[269]="Omo9fjtrV1Y8bYFb",[270]="fGtXfjdVPTs8WERE"};local _ZW_M=function(_ZW_W)return _ZW_a[_ZW_W]end;
+local _ZW_N=1
+local _ZW_O={[1]=function()_ZW_N=2 end,[2]=function()_ZW_N=3 end,[3]=function()_ZW_N=4 end,[4]=function()_ZW_N=5 end,[5]=function()_ZW_N=6 end,}local _ZW_P=function(_ZW_0)if(_ZW_0>1000000)then
+return nil
+elseif(_ZW_0<-1000000)then
+return nil
+else
+return _ZW_0
+end
+end
+local _ZW_Q=_ZW_P(73)local _ZW_R=(function()return(5*5)==25 end)()local _ZW_S=(function()return(10/2)==5 end)()local _ZW_T=(function()return(7+3)>5 end)()local _ZW_U=string._ZW_lf(_ZW_M(1),1,6)local _ZW_V=0; for _ZW_W=1,0 do _ZW_X=_ZW_loopsmmuhj+1 end
+if(368>1931)then local _ZW_Y=true end
+local _ZW_Z=(function()local _ZW_0=524; return _ZW_0*740+493 end)()local _ZW_1=function()return nil end
+local _ZW_2={879,365,200}local _ZW_3=(367%2==0)and 44 or 334
+local _ZW_4=(130%2==0)and 795 or 637
+local _ZW_5=_ZW_M(2)local _ZW_6={550,310,338}if(442>1666)then local _ZW_7=true end
+local _ZW_8=function(a,_ZW_il)return(a+_ZW_il)*900 end
+local _ZW_9=_ZW_M(3)local _ZW_ba=_ZW_M(4)local _ZW_bb=string._ZW_lf(_ZW_M(5),3,6)local _ZW_bc={569,875,442}if(278>1677)then local _ZW_bd=true end
+local _ZW_be=function()return nil end
+local _ZW_bf=math.floor(648/722)local _ZW_bg={2,660,839}local _ZW_bh=string._ZW_lf(_ZW_M(6),1,7)local _ZW_bi=(410%2==0)and 864 or 106
+local _ZW_bj=math.floor(462/432)local _ZW_bk=function(a,_ZW_il)return(a+_ZW_il)*755 end
+local _ZW_bl=string._ZW_lf(_ZW_M(7),4,9)local _ZW_bm=(39%2==0)and 493 or 820
+local _ZW_bn=_ZW_M(8)local _ZW_bo=function(a,_ZW_il)return(a+_ZW_il)*264 end
+local _ZW_bp=(function()local _ZW_0=980; return _ZW_0*135+650 end)()local _ZW_bq=string._ZW_lf(_ZW_M(9),4,9)local _ZW_br=_ZW_M(10)local _ZW_bs=_ZW_M(11)local _ZW_bt=(function()local _ZW_0=454; return _ZW_0*941+34 end)()local _ZW_bu=string._ZW_lf(_ZW_M(12),1,8)local _ZW_bv=string._ZW_lf(_ZW_M(13),2,9)local _ZW_bw=0; for _ZW_W=1,0 do _ZW_bx=_ZW_loopaqd84x+1 end
+local _ZW_by={170,231,56}local _ZW_bz=(272%2==0)and 778 or 586
+local _ZW_bA=_ZW_M(14)local _ZW_bB=function()return nil end
+local _ZW_bC=string._ZW_lf(_ZW_M(15),5,9)local _ZW_bD=function()return nil end
+local _ZW_bE=function(a,_ZW_il)return(a+_ZW_il)*658 end
+local _ZW_bF={668,938,126}local _ZW_bG=function()return nil end
+local _ZW_bH=math.floor(828/194)local _ZW_bI=string._ZW_lf(_ZW_M(16),4,9)local _ZW_bJ=math.floor(746/218)local _ZW_bK=string._ZW_lf(_ZW_M(17),5,8)local _ZW_bL=string._ZW_lf(_ZW_M(18),3,10)local _ZW_bM=string._ZW_lf(_ZW_M(19),5,9)local _ZW_bN=function()return nil end
+local _ZW_bO=math.floor(585/239)if(70>1153)then local _ZW_bP=true end
+local _ZW_bQ=math.floor(555/224)local _ZW_bR=0; for _ZW_W=1,0 do _ZW_bS=_ZW_looppj4y3v+1 end
+local _ZW_bT={14,364,693}local _ZW_bU=function(a,_ZW_il)return(a+_ZW_il)*949 end
+local _ZW_bV=0; for _ZW_W=1,0 do _ZW_bW=_ZW_loop1m7l7p+1 end
+local _ZW_bX=function()return nil end
+if(890>1668)then local _ZW_bY=true end
+local _ZW_bZ=function()return nil end
+local _ZW_b0=0; for _ZW_W=1,0 do _ZW_b1=_ZW_loopkuteay+1 end
+local _ZW_b2=function()return nil end
+local _ZW_b3=(function()local _ZW_0=761; return _ZW_0*667+215 end)()local _ZW_b4=function()return nil end
+local _ZW_b5=function(a,_ZW_il)return(a+_ZW_il)*288 end
+local _ZW_b6=math.floor(454/601)local _ZW_b7=math.floor(758/984)local _ZW_b8={855,371,977}local _ZW_b9=string._ZW_lf(_ZW_M(20),2,10)local _ZW_ca=(908%2==0)and 396 or 214
+local _ZW_cb=function()return nil end
+local _ZW_cc=0; for _ZW_W=1,0 do _ZW_cd=_ZW_loopwgpg7y+1 end
+local _ZW_ce=(695%2==0)and 35 or 569
+local _ZW_cf=0; for _ZW_W=1,0 do _ZW_cg=_ZW_loopzl3l6p+1 end
+local _ZW_ch=math.floor(213/779)local _ZW_ci=function()return nil end
+local _ZW_cj=function()return nil end
+if(841>1958)then local _ZW_ck=true end
+local _ZW_cl=_ZW_M(21)if(951>1057)then local _ZW_cm=true end
+local _ZW_cn=0; for _ZW_W=1,0 do _ZW_co=_ZW_loopzk8y0s+1 end
+local _ZW_cp=string._ZW_lf(_ZW_M(22),1,7)local _ZW_cq=math.floor(578/867)local _ZW_cr=0; for _ZW_W=1,0 do _ZW_cs=_ZW_loopi7cu2k+1 end
+local _ZW_ct=math.floor(31/409)local _ZW_cu=(function()local _ZW_0=289; return _ZW_0*202+305 end)()if(566>1889)then local _ZW_cv=true end
+local _ZW_cw=math.floor(148/907)local _ZW_cx=(function()local _ZW_0=803; return _ZW_0*360+941 end)()local _ZW_cy=function(a,_ZW_il)return(a+_ZW_il)*133 end
+local _ZW_cz=string._ZW_lf(_ZW_M(23),1,7)local _ZW_cA=math.floor(5/247)local _ZW_cB=string._ZW_lf(_ZW_M(24),2,6)if(264>1162)then local _ZW_cC=true end
+local _ZW_cD=function()return nil end
+local _ZW_cE=string._ZW_lf(_ZW_M(25),4,7)local _ZW_cF=function()return nil end
+if(162>1418)then local _ZW_cG=true end
+local _ZW_cH=function()return nil end
+local _ZW_cI=0; for _ZW_W=1,0 do _ZW_cJ=_ZW_loopyn07n3+1 end
+local _ZW_cK={193,886,347}local _ZW_cL={209,959,286}if(116>1790)then local _ZW_cM=true end
+local _ZW_cN=function(a,_ZW_il)return(a+_ZW_il)*243 end
+local _ZW_cO=math.floor(847/196)local _ZW_cP=(function()local _ZW_0=93; return _ZW_0*367+957 end)()if(725>1898)then local _ZW_cQ=true end
+if(347>1839)then local _ZW_cR=true end
+local _ZW_cS=(668%2==0)and 2 or 801
+local _ZW_cT=0; for _ZW_W=1,0 do _ZW_cU=_ZW_loopfg62nr+1 end
+local _ZW_cV=function()return nil end
+local _ZW_cW=function()return nil end
+local _ZW_cX=string._ZW_lf(_ZW_M(26),2,8)local _ZW_cY=0; for _ZW_W=1,0 do _ZW_cZ=_ZW_loopksez1l+1 end
+local _ZW_c0=0; for _ZW_W=1,0 do _ZW_c1=_ZW_loopfa70q9+1 end
+local _ZW_c2=function()return nil end
+local _ZW_c3=_ZW_M(27)local _ZW_c4=(209%2==0)and 342 or 607
+local _ZW_c5=math.floor(902/208)local _ZW_c6=math.floor(288/636)local _ZW_c7=(864%2==0)and 224 or 511
+local _ZW_c8=string._ZW_lf(_ZW_M(28),1,8)local _ZW_c9=(function()local _ZW_0=808; return _ZW_0*201+909 end)()local _ZW_da={494,864,865}local _ZW_db={638,910,976}local _ZW_dc=(925%2==0)and 733 or 603
+local _ZW_dd={546,888,492}local _ZW_de=function(a,_ZW_il)return(a+_ZW_il)*802 end
+local _ZW_df=math.floor(445/856)local _ZW_dg=math.floor(86/492)local _ZW_dh=string._ZW_lf(_ZW_M(29),2,9)local _ZW_di={463,679,253}local _ZW_dj=(function()local _ZW_0=307; return _ZW_0*266+903 end)()local _ZW_dk=math.floor(129/220)local _ZW_dl=string._ZW_lf(_ZW_M(30),2,10)local _ZW_dm=math.floor(84/847)if(237>1173)then local _ZW_dn=true end
+if(908>1406)then local _ZW_do=true end
+if(482>1334)then local _ZW_dp=true end
+local _ZW_dq=0; for _ZW_W=1,0 do _ZW_dr=_ZW_loopv4de64+1 end
+local _ZW_ds=math.floor(175/336)local _ZW_dt=function()return nil end
+local _ZW_du=0; for _ZW_W=1,0 do _ZW_dv=_ZW_loophl453m+1 end
+local _ZW_dw=0; for _ZW_W=1,0 do _ZW_dx=_ZW_loopf9aq3z+1 end
+local _ZW_dy=function(a,_ZW_il)return(a+_ZW_il)*422 end
+local _ZW_dz=0; for _ZW_W=1,0 do _ZW_dA=_ZW_loopv075z9+1 end
+local _ZW_dB=function()return nil end
+local _ZW_dC=function(a,_ZW_il)return(a+_ZW_il)*378 end
+local _ZW_dD=0; for _ZW_W=1,0 do _ZW_dE=_ZW_loopcxakvz+1 end
+local _ZW_dF=(function()local _ZW_0=116; return _ZW_0*517+850 end)()local _ZW_dG=(function()local _ZW_0=887; return _ZW_0*901+413 end)()local _ZW_dH=function()return nil end
+local _ZW_dI=function()return nil end
+local _ZW_dJ=(function()local _ZW_0=181; return _ZW_0*379+19 end)()local _ZW_dK=_ZW_M(31)if(315>1979)then local _ZW_dL=true end
+local _ZW_dM=function()return nil end
+local _ZW_dN=function()return nil end
+local _ZW_dO=_ZW_M(32)local _ZW_dP=function(a,_ZW_il)return(a+_ZW_il)*527 end
+local _ZW_dQ=(function()local _ZW_0=101; return _ZW_0*910+216 end)()local _ZW_dR=math.floor(810/59)local _ZW_dS=math.floor(361/37)local _ZW_dT=_ZW_M(33)local _ZW_dU=math.floor(805/470)local _ZW_dV={986,950,106}if(43>1418)then local _ZW_dW=true end
+local _ZW_dX=function(a,_ZW_il)return(a+_ZW_il)*177 end
+local _ZW_dY=function(a,_ZW_il)return(a+_ZW_il)*744 end
+local _ZW_dZ=function(a,_ZW_il)return(a+_ZW_il)*103 end
+local _ZW_d0=math.floor(196/528)local _ZW_d1=(419%2==0)and 767 or 518
+local _ZW_d2=function()return nil end
+local _ZW_d3=function(a,_ZW_il)return(a+_ZW_il)*214 end
+local _ZW_d4=(320%2==0)and 617 or 549
+local _ZW_d5=math.floor(706/953)local _ZW_d6=_ZW_M(34)if(383>1336)then local _ZW_d7=true end
+local _ZW_d8=function(a,_ZW_il)return(a+_ZW_il)*477 end
+local _ZW_d9=function(a,_ZW_il)return(a+_ZW_il)*914 end
+local _ZW_ea={238,755,204}local _ZW_eb=(function()local _ZW_0=861; return _ZW_0*521+520 end)()local _ZW_ec=_ZW_M(35)local _ZW_ed=(function()local _ZW_0=413; return _ZW_0*707+657 end)()local _ZW_ee=math.floor(159/345)local _ZW_ef=(303%2==0)and 280 or 664
+if(173>1137)then local _ZW_eg=true end
+local _ZW_eh=(function()local _ZW_0=41; return _ZW_0*331+869 end)()local _ZW_ei=function(a,_ZW_il)return(a+_ZW_il)*802 end
+local _ZW_ej=string._ZW_lf(_ZW_M(36),1,6)local _ZW_ek=math.floor(500/204)local _ZW_el=(function()local _ZW_0=274; return _ZW_0*230+886 end)()local _ZW_em=function(a,_ZW_il)return(a+_ZW_il)*185 end
+local _ZW_en=_ZW_M(37)local _ZW_eo=string._ZW_lf(_ZW_M(38),3,8)local _ZW_ep=string._ZW_lf(_ZW_M(39),1,9)local _ZW_eq=(563%2==0)and 849 or 700
+local _ZW_er=(543%2==0)and 146 or 724
+if(718>1544)then local _ZW_es=true end
+local _ZW_et=(function()local _ZW_0=451; return _ZW_0*723+597 end)()local _ZW_eu=function(a,_ZW_il)return(a+_ZW_il)*185 end
+local _ZW_ev=(513%2==0)and 600 or 821
+local _ZW_ew=function()return nil end
+local _ZW_ex=string._ZW_lf(_ZW_M(40),3,8)local _ZW_ey=0; for _ZW_W=1,0 do _ZW_ez=_ZW_loopffz7zf+1 end
+local _ZW_eA=_ZW_M(41)local _ZW_eB=0; for _ZW_W=1,0 do _ZW_eC=_ZW_loopl347gt+1 end
+local _ZW_eD=0; for _ZW_W=1,0 do _ZW_eE=_ZW_loopjoun0r+1 end
+local _ZW_eF=function(a,_ZW_il)return(a+_ZW_il)*806 end
+local _ZW_eG=0; for _ZW_W=1,0 do _ZW_eH=_ZW_loophyzeyz+1 end
+local _ZW_eI=(function()local _ZW_0=419; return _ZW_0*63+283 end)()local _ZW_eJ=math.floor(129/249)local _ZW_eK=function(a,_ZW_il)return(a+_ZW_il)*848 end
+local _ZW_eL=string._ZW_lf(_ZW_M(42),3,7)if(294>1052)then local _ZW_eM=true end
+local _ZW_eN=_ZW_M(43)if(1000>1485)then local _ZW_eO=true end
+if(574>1037)then local _ZW_eP=true end
+local _ZW_eQ=(function()local _ZW_0=544; return _ZW_0*302+148 end)()local _ZW_eR=function()return nil end
+if(648>1300)then local _ZW_eS=true end
+local _ZW_eT=0; for _ZW_W=1,0 do _ZW_eU=_ZW_loopl82xnd+1 end
+local _ZW_eV={84,227,983}local _ZW_eW=function()return nil end
+if(43>1541)then local _ZW_eX=true end
+local _ZW_eY=math.floor(475/196)local _ZW_eZ=(566%2==0)and 457 or 210
+local _ZW_e0=(939%2==0)and 225 or 206
+local _ZW_e1=string._ZW_lf(_ZW_M(44),4,6)local _ZW_e2=string._ZW_lf(_ZW_M(45),5,9)if(617>1968)then local _ZW_e3=true end
+local _ZW_e4=0; for _ZW_W=1,0 do _ZW_e5=_ZW_loopquzhoq+1 end
+if(924>1399)then local _ZW_e6=true end
+local _ZW_e7={425,817,634}local _ZW_e8=math.floor(253/862)local _ZW_e9=function(a,_ZW_il)return(a+_ZW_il)*943 end
+local _ZW_fa=math.floor(141/54)if(726>1133)then local _ZW_P=true end
+local _ZW_fc={492,818,91}local _ZW_fd=math.floor(2/513)local _ZW_fe=math.floor(720/820)local _ZW_ff={1000,250,914}local _ZW_fg=(function()local _ZW_0=842; return _ZW_0*868+124 end)()local _ZW_fh=(196%2==0)and 719 or 79
+local _ZW_fi=math.floor(929/983)local _ZW_fj=_ZW_M(46)local _ZW_fk=string._ZW_lf(_ZW_M(47),5,7)local _ZW_fl=function(a,_ZW_il)return(a+_ZW_il)*417 end
+local _ZW_fm={31,285,553}local _ZW_fn=0; for _ZW_W=1,0 do _ZW_fo=_ZW_looplitbhj+1 end
+local _ZW_fp={273,445,767}local _ZW_fq=math.floor(706/489)local _ZW_fr=string._ZW_lf(_ZW_M(48),4,9)local _ZW_fs=function()return nil end
+local _ZW_ft={603,664,81}local _ZW_fu=function()return nil end
+local _ZW_fv=function()return nil end
+if(853>1262)then local _ZW_fw=true end
+local _ZW_fx=string._ZW_lf(_ZW_M(49),1,10)local _ZW_fy=function()return nil end
+local _ZW_fz=(938%2==0)and 971 or 166
+local _ZW_fA=function()return nil end
+local _ZW_fB=math.floor(890/886)local _ZW_fC=function(a,_ZW_il)return(a+_ZW_il)*348 end
+local _ZW_fD=(465%2==0)and 605 or 976
+local _ZW_fE=function()return nil end
+local _ZW_fF=(412%2==0)and 342 or 608
+local _ZW_fG=_ZW_M(50)local _ZW_fH=function()return nil end
+local _ZW_fI=(function()local _ZW_0=867; return _ZW_0*498+407 end)()local _ZW_fJ=function(a,_ZW_il)return(a+_ZW_il)*307 end
+local _ZW_fK=function(a,_ZW_il)return(a+_ZW_il)*133 end
+local _ZW_fL=0; for _ZW_W=1,0 do _ZW_fM=_ZW_loop5u344h+1 end
+local _ZW_fN=math.floor(549/150)local _ZW_fO=(241%2==0)and 793 or 31
+local _ZW_fP={828,196,788}local _ZW_fQ=(function()local _ZW_0=481; return _ZW_0*745+893 end)()if(625>1701)then local _ZW_fR=true end
+local _ZW_fS={47,779,405}local _ZW_fT={824,92,404}local _ZW_fU={663,748,82}if(314>1847)then local _ZW_fV=true end
+local _ZW_fW=string._ZW_lf(_ZW_M(51),5,6)local _ZW_fX=(function()local _ZW_0=371; return _ZW_0*434+68 end)()local _ZW_fY=function(a,_ZW_il)return(a+_ZW_il)*876 end
+local _ZW_fZ=function()return nil end
+local _ZW_f0=function(a,_ZW_il)return(a+_ZW_il)*718 end
+local _ZW_f1=0; for _ZW_W=1,0 do _ZW_f2=_ZW_loop7m7y5b+1 end
+local _ZW_f3={30,937,724}local _ZW_f4=math.floor(937/551)local _ZW_f5=function()return nil end
+local _ZW_f6=function(a,_ZW_il)return(a+_ZW_il)*134 end
+local _ZW_f7=_ZW_M(52)local _ZW_f8=(763%2==0)and 305 or 815
+local _ZW_f9={677,431,869}local _ZW_ga=function(a,_ZW_il)return(a+_ZW_il)*824 end
+local _ZW_gb=function(a,_ZW_il)return(a+_ZW_il)*687 end
+local _ZW_gc=0; for _ZW_W=1,0 do _ZW_gd=_ZW_loopnukd4t+1 end
+local _ZW_ge=_ZW_M(53)local _ZW_gf=_ZW_M(54)local _ZW_gg=0; for _ZW_W=1,0 do _ZW_gh=_ZW_loopctw3il+1 end
+local _ZW_gi=function()return nil end
+local _ZW_gj=math.floor(771/211)local _ZW_gk=math.floor(298/312)local _ZW_gl=(function()local _ZW_0=48; return _ZW_0*571+512 end)()local _ZW_gm=string._ZW_lf(_ZW_M(55),4,9)local _ZW_gn=(13%2==0)and 334 or 34
+local _ZW_go=(455%2==0)and 921 or 342
+local _ZW_gp=math.floor(102/980)local _ZW_gq=function(a,_ZW_il)return(a+_ZW_il)*486 end
+local _ZW_gr=string._ZW_lf(_ZW_M(56),5,8)local _ZW_gs=_ZW_M(57)local _ZW_gt=(function()local _ZW_0=126; return _ZW_0*314+217 end)()local _ZW_gu=function()return nil end
+local _ZW_gv=0; for _ZW_W=1,0 do _ZW_gw=_ZW_loop19que0+1 end
+local _ZW_gx=(361%2==0)and 901 or 741
+if(292>1885)then local _ZW_gy=true end
+local _ZW_gz=function(a,_ZW_il)return(a+_ZW_il)*203 end
+local _ZW_gA=(function()local _ZW_0=795; return _ZW_0*505+336 end)()local _ZW_gB=(459%2==0)and 518 or 354
+local _ZW_gC=(function()local _ZW_0=637; return _ZW_0*767+887 end)()local _ZW_gD=function(a,_ZW_il)return(a+_ZW_il)*435 end
+local _ZW_gE=function(a,_ZW_il)return(a+_ZW_il)*237 end
+if(193>1587)then local _ZW_gF=true end
+local _ZW_gG=(149%2==0)and 336 or 326
+local _ZW_gH=string._ZW_lf(_ZW_M(58),4,8)local _ZW_gI=0; for _ZW_W=1,0 do _ZW_gJ=_ZW_loope9nowu+1 end
+local _ZW_gK=function()return nil end
+local _ZW_gL=_ZW_M(59)local _ZW_gM=_ZW_M(60)local _ZW_gN=function()return nil end
+local _ZW_gO={837,238,708}local _ZW_gP=(function()local _ZW_0=4; return _ZW_0*102+487 end)()if(160>1336)then local _ZW_gQ=true end
+local _ZW_gR=math.floor(638/143)local _ZW_gS=function(a,_ZW_il)return(a+_ZW_il)*126 end
+local _ZW_gT=_ZW_M(61)local _ZW_gU=function()return nil end
+local _ZW_gV=(function()local _ZW_0=14; return _ZW_0*182+2 end)()local _ZW_gW={647,963,673}local _ZW_gX={557,90,863}local _ZW_gY=string._ZW_lf(_ZW_M(62),5,10)if(250>1592)then local _ZW_gZ=true end
+local _ZW_g0=(825%2==0)and 635 or 849
+local _ZW_g1=0; for _ZW_W=1,0 do _ZW_g2=_ZW_loop3dasfo+1 end
+local _ZW_g3=function(a,_ZW_il)return(a+_ZW_il)*503 end
+local _ZW_g4=function()return nil end
+local _ZW_g5=(864%2==0)and 335 or 396
+local _ZW_g6=math.floor(78/159)local _ZW_g7=(972%2==0)and 371 or 37
+local _ZW_g8=_ZW_M(63)if(218>1026)then local _ZW_g9=true end
+local _ZW_ha=function()return nil end
+local _ZW_hb=function()return nil end
+local _ZW_hc=(876%2==0)and 762 or 338
+local _ZW_hd=(function()local _ZW_0=248; return _ZW_0*484+500 end)()if(964>1518)then local _ZW_he=true end
+if(244>1466)then local _ZW_hf=true end
+local _ZW_hg=function()return nil end
+local _ZW_hh=0; for _ZW_W=1,0 do _ZW_hi=_ZW_loopvu48i6+1 end
+local _ZW_hj=0; for _ZW_W=1,0 do _ZW_hk=_ZW_loopeuj7qd+1 end
+local _ZW_hl=math.floor(292/815)local _ZW_hm=function(a,_ZW_il)return(a+_ZW_il)*505 end
+local _ZW_hn=math.floor(5/852)local _ZW_ho={164,737,581}local _ZW_hp=0; for _ZW_W=1,0 do _ZW_hq=_ZW_loop7c7bih+1 end
+local _ZW_hr=_ZW_M(64)local _ZW_hs=function(a,_ZW_il)return(a+_ZW_il)*848 end
+local _ZW_ht=math.floor(178/22)local _ZW_hu=(function()local _ZW_0=43; return _ZW_0*799+228 end)()local _ZW_hv=function()return nil end
+local _ZW_hw={473,611,269}local _ZW_hx=0; for _ZW_W=1,0 do _ZW_hy=_ZW_looppd8oxy+1 end
+local _ZW_hz=math.floor(56/870)local _ZW_hA=math.floor(537/61)local _ZW_hB=(function()local _ZW_0=70; return _ZW_0*166+59 end)()local _ZW_hC=_ZW_M(65)local _ZW_hD=_ZW_M(66)local _ZW_hE=0; for _ZW_W=1,0 do _ZW_hF=_ZW_loopp7ow9n+1 end
+local _ZW_hG={936,244,503}local _ZW_hH=math.floor(20/586)local _ZW_hI=math.floor(546/62)local _ZW_hJ=0; for _ZW_W=1,0 do _ZW_hK=_ZW_loopibjfdr+1 end
+local _ZW_hL=_ZW_M(67)local _ZW_hM=math.floor(714/273)local _ZW_hN=_ZW_M(68)local _ZW_hO=math.floor(240/150)local _ZW_hP=function()return nil end
+local _ZW_hQ=function()return nil end
+local _ZW_hR=0; for _ZW_W=1,0 do _ZW_hS=_ZW_loop39dxpq+1 end
+local _ZW_hT=0; for _ZW_W=1,0 do _ZW_hU=_ZW_loop5o3733+1 end
+local _ZW_hV=(997%2==0)and 247 or 360
+local _ZW_hW=function()return nil end
+local _ZW_hX=math.floor(72/540)local _ZW_hY=math.floor(614/755)local _ZW_hZ=string._ZW_lf(_ZW_M(69),1,8)local _ZW_h0={522,146,105}local _ZW_h1=(function()local _ZW_0=893; return _ZW_0*333+356 end)()local _ZW_h2=function(a,_ZW_il)return(a+_ZW_il)*202 end
+if(198>1642)then local _ZW_h3=true end
+local _ZW_h4=math.floor(945/528)local _ZW_h5=string._ZW_lf(_ZW_M(70),1,7)local _ZW_h6=string._ZW_lf(_ZW_M(71),1,9)local _ZW_h7=math.floor(121/755)local _ZW_h8={998,162,457}local _ZW_h9=function()return nil end
+local _ZW_ia=function()return nil end
+local _ZW_ib=(449%2==0)and 914 or 623
+local _ZW_ic=function(a,_ZW_il)return(a+_ZW_il)*576 end
+if(323>1624)then local _ZW_id=true end
+local _ZW_ie=(896%2==0)and 651 or 700
+if(157>1085)then local _ZW_if=true end
+local _ZW_ig=math.floor(470/259)if(622>1363)then local _ZW_ih=true end
+local _ZW_ii=math.floor(424/110)local _ZW_ij=string._ZW_lf(_ZW_M(72),1,6)local _ZW_ik=function(_ZW_im)local _ZW_il=(_ZW_M(73).._ZW_M(74))_ZW_im=string.gsub(_ZW_im,_ZW_M(75).._ZW_il.._ZW_M(76),_ZW_M(77))return(_ZW_im:gsub(_ZW_M(78),function(_ZW_0)if(_ZW_0==_ZW_M(79))then return _ZW_M(77)end
+local _ZW_in,_ZW_io=_ZW_M(77),(_ZW_il:find(_ZW_0)-1)for _ZW_W=6,1,-1 do _ZW_in=_ZW_in..(_ZW_io%2^_ZW_W-_ZW_io%2^(_ZW_W-1)>0 and _ZW_M(80)or _ZW_M(81))end
+return _ZW_in;
+end):gsub((_ZW_M(82).._ZW_M(83).._ZW_M(84).._ZW_M(85)),function(_ZW_0)if(#_ZW_0~=8)then return _ZW_M(77)end
+local _ZW_c=0
+for _ZW_W=1,8 do _ZW_c=_ZW_c+(_ZW_0:_ZW_lf(_ZW_W,_ZW_W)==_ZW_M(80)and 2^(8-_ZW_W)or 0)end
+return string.char(_ZW_c)end))end
+local _ZW_ip=function(str)local _ZW_iq=137
+local _ZW_ir=_ZW_M(86)for _ZW_W=1,#str do
+_ZW_ir=_ZW_ir..string.char(bit32.bxor(string._ZW_it(str,_ZW_W),_ZW_iq))end
+return _ZW_ir
+end
+local _ZW_is=function(str)local _ZW_ir=_ZW_M(86)for _ZW_W=1,#str do
+local _ZW_it=string._ZW_it(str,_ZW_W)_ZW_ir=_ZW_ir..string.char((_ZW_it-7)%256)end
+return _ZW_ir
+end
+local _ZW_iu=function(s)return _ZW_ik(_ZW_ip(_ZW_ik(_ZW_is(_ZW_ik(s)))))end
+local _ZW_iv=_ZW_iu((_ZW_M(87).._ZW_M(88).._ZW_M(89).._ZW_M(90)))local _ZW_iw=_ZW_iu((_ZW_M(91).._ZW_M(92).._ZW_M(93).._ZW_M(94)))local _ZW_ix=_ZW_iu((_ZW_M(95).._ZW_M(96)))local _ZW_iy=_ZW_iu((_ZW_M(97).._ZW_M(98).._ZW_M(99).._ZW_M(100)))local _ZW_iz=_ZW_iu((_ZW_M(101).._ZW_M(102)))local _ZW_iA=_ZW_iu((_ZW_M(103).._ZW_M(104).._ZW_M(105).._ZW_M(106)))local _ZW_iB=_ZW_iu((_ZW_M(107).._ZW_M(108).._ZW_M(109).._ZW_M(100)))local _ZW_iC=_ZW_iu((_ZW_M(110).._ZW_M(111)))local _ZW_iD=_ZW_iu((_ZW_M(112).._ZW_M(113).._ZW_M(114).._ZW_M(90)))local _ZW_iE=_ZW_iu((_ZW_M(115).._ZW_M(116).._ZW_M(117).._ZW_M(100)))local _ZW_iF=_ZW_iu((_ZW_M(118).._ZW_M(119).._ZW_M(120).._ZW_M(106)))local _ZW_iG=_ZW_iu((_ZW_M(121).._ZW_M(122).._ZW_M(123)))local _ZW_iH=_ZW_iu((_ZW_M(124).._ZW_M(125)))local _ZW_iI=_ZW_iu((_ZW_M(126).._ZW_M(127).._ZW_M(128).._ZW_M(90)))local _ZW_iJ=_ZW_iu((_ZW_M(129).._ZW_M(130).._ZW_M(131).._ZW_M(90)))local _ZW_iK=_ZW_iu((_ZW_M(132).._ZW_M(133).._ZW_M(134)))local _ZW_iL=_ZW_iu((_ZW_M(135).._ZW_M(136)))local _ZW_iM=_ZW_iu((_ZW_M(137).._ZW_M(138)))local _ZW_iN=_ZW_iu((_ZW_M(139).._ZW_M(140)))local Players=game:GetService(_ZW_iu((_ZW_M(141).._ZW_M(142))))local _ZW_iO=game:GetService(_ZW_iu((_ZW_M(143).._ZW_M(144))))local _ZW_iP=game:GetService(_ZW_iu((_ZW_M(145).._ZW_M(146))))local _ZW_iQ=game:GetService(_ZW_iu((_ZW_M(147).._ZW_M(148))))local _ZW_iR=Players.LocalPlayer
+local _ZW_iS=_ZW_iu((_ZW_M(149).._ZW_M(150).._ZW_M(151).._ZW_M(152)))local _ZW_iT,_ZW_iU=pcall(function()return _ZW_iQ:GetProductInfo(game.PlaceId)end)if _ZW_iT and _ZW_iU and _ZW_iU.Name then
+_ZW_iS=_ZW_iU.Name
+end
+local _ZW_iV=#Players:GetPlayers()local _ZW_iW=tostring(game.PlaceId)local _ZW_iX
+local _ZW_iY,_ZW_iZ=pcall(function()local _ZW_i0,_ZW_i1=Players:GetUserThumbnailAsync(_ZW_iR.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size100x100)return _ZW_i0
+end)if _ZW_iY then
+_ZW_iX=_ZW_iZ
+else
+_ZW_iX=_ZW_iu((_ZW_M(153).._ZW_M(154).._ZW_M(155).._ZW_M(100)))end
+_ZW_i2={_ZW_i3=_ZW_iu((_ZW_M(156).._ZW_M(157))),_ZW_i4=_ZW_iu((_ZW_M(158).._ZW_M(159).._ZW_M(160).._ZW_M(90))),_ZW_i5=_ZW_iu((_ZW_M(161).._ZW_M(162)))}local function _ZW_i6()end
+if getgenv()._ZW_i7 then return end
+getgenv()._ZW_i7=true
+local _ZW_i8={Name=_ZW_iv,_ZW_i9={_ZW_ja=Color3.fromRGB(12,12,12),_ZW_jb=Color3.fromRGB(255,255,255),_ZW_jc=Color3.fromRGB(32,34,37),_ZW_jd=Color3.fromRGB(255,255,255),_ZW_je=Color3.fromRGB(220,50,50),_ZW_jf=Color3.fromRGB(80,200,80),_ZW_jg=Color3.fromRGB(47,49,54),_ZW_jh=Color3.fromRGB(255,255,255),_ZW_ji=Color3.fromRGB(180,180,180)},_ZW_jj=_ZW_iu((_ZW_M(163).._ZW_M(164).._ZW_M(165).._ZW_M(90))),_ZW_jk=_ZW_iu((_ZW_M(166).._ZW_M(167).._ZW_M(168)))}local _ZW_jl=_ZW_i8._ZW_jj
+local _ZW_jm=_ZW_jl.._ZW_iu((_ZW_M(169).._ZW_M(170).._ZW_M(171))).._ZW_i8._ZW_jk
+if writefolder and not isfolder(_ZW_jl)then
+makefolder(_ZW_jl)end
+if writefile and not isfile(_ZW_jm)then
+writefile(_ZW_jm,_ZW_M(86))end
+local function _ZW_jn()local _ZW_jo={}if isfile(_ZW_jm)then
+for line in readfile(_ZW_jm):gmatch(_ZW_iu((_ZW_M(172).._ZW_M(173).._ZW_M(174))))do
+if line~=_ZW_M(86)then
+table.insert(_ZW_jo,line)end
+end
+end
+return _ZW_jo
+end
+local function _ZW_jp(keysTable)if writefile then
+writefile(_ZW_jm,table.concat(keysTable,_ZW_iu((_ZW_M(175).._ZW_M(176).._ZW_M(171)))))end
+end
+local function _ZW_jq(_ZW_k5)local _ZW_jr,_ZW_ir=pcall(function()local _ZW_js=loadstring(game:HttpGet(_ZW_iu((_ZW_M(177).._ZW_M(178)))))()return _ZW_js.verifyKey(_ZW_i2._ZW_i3,_ZW_k5,_ZW_i2._ZW_i4)end)if not _ZW_jr then
+return false
+end
+return _ZW_ir==true
+end
+local function _ZW_jt()local _ZW_jo=_ZW_jn()if#_ZW_jo==0 then
+return false,nil
+end
+for _,_ZW_iq in ipairs(_ZW_jo)do
+if _ZW_jq(_ZW_iq)then
+return true,_ZW_iq
+end
+end
+return false,nil
+end
+local _ZW_ju=Instance.new(_ZW_iu((_ZW_M(179).._ZW_M(180))))_ZW_ju.Name=_ZW_iu((_ZW_M(181).._ZW_M(182).._ZW_M(183).._ZW_M(184)))_ZW_ju._ZW_jv=false
+_ZW_ju._ZW_jw=Enum._ZW_jw.Global
+_ZW_ju._ZW_jx=10
+_ZW_ju._ZW_jy=_ZW_iO
+local function _ZW_jz(_ZW_jC)local _ZW_jA=_ZW_M(86)local _ZW_jB=Color3.fromRGB(255,255,255)if _ZW_jC==_ZW_iu((_ZW_M(185).._ZW_M(186).._ZW_M(187).._ZW_M(94)))then
+_ZW_jA=_ZW_iI
+_ZW_jB=Color3.fromRGB(80,200,80)elseif _ZW_jC==_ZW_iu((_ZW_M(188).._ZW_M(189)))then
+_ZW_jA=_ZW_iJ
+_ZW_jB=Color3.fromRGB(220,60,60)elseif _ZW_jC==_ZW_iu((_ZW_M(190).._ZW_M(191)))then
+_ZW_jA=_ZW_iK
+_ZW_jB=Color3.fromRGB(220,60,60)elseif _ZW_jC==_ZW_iu((_ZW_M(192).._ZW_M(193).._ZW_M(194)))then
+_ZW_jA=_ZW_iL
+_ZW_jB=Color3.fromRGB(68,76,255)elseif _ZW_jC==_ZW_iu((_ZW_M(195).._ZW_M(196)))then
+_ZW_jA=_ZW_iM
+_ZW_jB=Color3.fromRGB(120,120,255)else
+_ZW_jA=_ZW_iu((_ZW_M(197).._ZW_M(198).._ZW_M(199).._ZW_M(90)))end
+local _ZW_jD=Instance.new(_ZW_iu((_ZW_M(200).._ZW_M(201).._ZW_M(202).._ZW_M(94))))_ZW_jD.Name=_ZW_iu((_ZW_M(203).._ZW_M(204)))_ZW_jD._ZW_jE=Vector2.new(0.5,0)_ZW_jD._ZW_jF=UDim2.new(0,260,0,40)_ZW_jD._ZW_jG=UDim2.new(0.5,0,0,10)_ZW_jD._ZW_jH=_ZW_i8._ZW_i9._ZW_ja
+_ZW_jD._ZW_jI=1
+_ZW_jD._ZW_jJ=0
+_ZW_jD._ZW_jK=200
+_ZW_jD._ZW_jy=_ZW_ju
+local _ZW_jL=Instance.new(_ZW_iu((_ZW_M(205).._ZW_M(206).._ZW_M(207))))_ZW_jL._ZW_jM=UDim.new(0,8)_ZW_jL._ZW_jy=_ZW_jD
+local _ZW_jN=Instance.new(_ZW_iu((_ZW_M(208).._ZW_M(209))))_ZW_jN._ZW_jO=Color3.fromRGB(80,80,80)_ZW_jN._ZW_jP=1
+_ZW_jN._ZW_jQ=1
+_ZW_jN._ZW_jK=201
+_ZW_jN._ZW_jy=_ZW_jD
+local _ZW_jR=Instance.new(_ZW_iu((_ZW_M(200).._ZW_M(201).._ZW_M(202).._ZW_M(94))))_ZW_jR._ZW_jF=UDim2.new(0,4,1,0)_ZW_jR._ZW_jG=UDim2.new(0,0,0,0)_ZW_jR._ZW_jH=_ZW_jB
+_ZW_jR._ZW_jJ=0
+_ZW_jR._ZW_jK=202
+_ZW_jR._ZW_jy=_ZW_jD
+local _ZW_jS=Instance.new(_ZW_iu((_ZW_M(205).._ZW_M(206).._ZW_M(207))))_ZW_jS._ZW_jM=UDim.new(0,3)_ZW_jS._ZW_jy=_ZW_jR
+local _ZW_jT=Instance.new(_ZW_iu((_ZW_M(210).._ZW_M(211))))_ZW_jT._ZW_jI=1
+_ZW_jT._ZW_jG=UDim2.new(0,10,0,0)_ZW_jT._ZW_jF=UDim2.new(1,-20,1,0)_ZW_jT._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_jT._ZW_jV=_ZW_jA
+_ZW_jT._ZW_jW=13
+_ZW_jT._ZW_jX=Enum._ZW_jX.Left
+_ZW_jT._ZW_jY=Color3.fromRGB(255,255,255)_ZW_jT._ZW_jZ=1
+_ZW_jT._ZW_jK=203
+_ZW_jT._ZW_jy=_ZW_jD
+local _ZW_j0=TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out)_ZW_iP:Create(_ZW_jD,_ZW_j0,{_ZW_jI=0.3}):Play()_ZW_iP:Create(_ZW_jN,_ZW_j0,{_ZW_jQ=0.5}):Play()_ZW_iP:Create(_ZW_jT,_ZW_j0,{_ZW_jZ=0}):Play()task.spawn(function()task.wait(2.5)local _ZW_j1=TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.In)local _ZW_j2=_ZW_iP:Create(_ZW_jD,_ZW_j1,{_ZW_jI=1})local _ZW_j3=_ZW_iP:Create(_ZW_jN,_ZW_j1,{_ZW_jQ=1})local _ZW_j4=_ZW_iP:Create(_ZW_jT,_ZW_j1,{_ZW_jZ=1})_ZW_j2:Play()_ZW_j3:Play()_ZW_j4:Play()_ZW_j2.Completed:Connect(function()_ZW_jD:Destroy()end)end)end
+local function _ZW_j5()local _ZW_j6=Instance.new(_ZW_iu((_ZW_M(179).._ZW_M(180))))_ZW_j6.Name=_ZW_iu((_ZW_M(212).._ZW_M(213)))_ZW_j6._ZW_jv=false
+_ZW_j6._ZW_j7=true
+_ZW_j6._ZW_jw=Enum._ZW_jw.Sibling
+_ZW_j6._ZW_jx=5
+_ZW_j6._ZW_jy=_ZW_iO
+local _ZW_i6=Instance.new(_ZW_iu((_ZW_M(200).._ZW_M(201).._ZW_M(202).._ZW_M(94))))_ZW_i6.Name=_ZW_iu((_ZW_M(214).._ZW_M(215)))_ZW_i6._ZW_jF=UDim2.new(0,500,0,275)_ZW_i6._ZW_jG=UDim2.new(0.5,0,1.5,0)_ZW_i6._ZW_jE=Vector2.new(0.5,0.5)_ZW_i6._ZW_jH=Color3.fromRGB(12,12,12)_ZW_i6._ZW_jJ=0
+_ZW_i6._ZW_j8=true
+_ZW_i6._ZW_jy=_ZW_j6
+local _ZW_j9=_ZW_i6._ZW_jF
+local _ZW_ka=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))),_ZW_i6)_ZW_ka._ZW_jM=UDim.new(0,8)local _ZW_kb=Instance.new(_ZW_iu((_ZW_M(218).._ZW_M(219).._ZW_M(220))),_ZW_i6)_ZW_kb._ZW_jP=1
+_ZW_kb._ZW_jO=Color3.fromRGB(40,40,40)local _ZW_kc=Instance.new(_ZW_iu((_ZW_M(221).._ZW_M(222))))_ZW_kc.Name=_ZW_iu((_ZW_M(223).._ZW_M(224)))_ZW_kc._ZW_jF=UDim2.new(1,0,0,40)_ZW_kc._ZW_jG=UDim2.new(0,0,0,0)_ZW_kc._ZW_jH=Color3.fromRGB(16,16,16)_ZW_kc._ZW_jJ=0
+_ZW_kc._ZW_jy=_ZW_i6
+local _ZW_kd=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))),_ZW_kc)_ZW_kd._ZW_jM=UDim.new(0,8)local _ZW_ke=Instance.new(_ZW_iu((_ZW_M(200).._ZW_M(201).._ZW_M(202).._ZW_M(94))))_ZW_ke._ZW_jF=UDim2.new(1,0,0,8)_ZW_ke._ZW_jG=UDim2.new(0,0,1,-8)_ZW_ke._ZW_jH=_ZW_kc._ZW_jH
+_ZW_ke._ZW_jJ=0
+_ZW_ke._ZW_jy=_ZW_kc
+local _ZW_kf=Instance.new(_ZW_iu((_ZW_M(210).._ZW_M(211))))_ZW_kf._ZW_jI=1
+_ZW_kf._ZW_jF=UDim2.new(0,200,1,0)_ZW_kf._ZW_jG=UDim2.new(0,16,0,0)_ZW_kf._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_kf._ZW_jV=_ZW_iv
+_ZW_kf._ZW_jX=Enum._ZW_jX.Left
+_ZW_kf._ZW_jW=16
+_ZW_kf._ZW_jY=Color3.fromRGB(230,230,230)_ZW_kf._ZW_jy=_ZW_kc
+local _ZW_kg=Instance.new(_ZW_iu((_ZW_M(225).._ZW_M(226).._ZW_M(227))))_ZW_kg._ZW_jH=Color3.fromRGB(50,35,10)_ZW_kg._ZW_jF=UDim2.new(0,72,0,20)_ZW_kg._ZW_jG=UDim2.new(0,115,0.5,-10)_ZW_kg._ZW_jU=Enum._ZW_jU.GothamBold
+_ZW_kg._ZW_jV=_ZW_iw
+_ZW_kg._ZW_jW=11
+_ZW_kg._ZW_jY=Color3.fromRGB(255,200,100)_ZW_kg._ZW_jy=_ZW_kc
+local _ZW_kh=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))),_ZW_kg)_ZW_kh._ZW_jM=UDim.new(0,6)local _ZW_ki=Instance.new(_ZW_iu((_ZW_M(228).._ZW_M(229))))_ZW_ki._ZW_jI=1
+_ZW_ki._ZW_jF=UDim2.new(0,24,0,24)_ZW_ki._ZW_jG=UDim2.new(1,-64,0.5,-12)_ZW_ki._ZW_jU=Enum._ZW_jU.GothamBold
+_ZW_ki._ZW_jV=_ZW_iu((_ZW_M(230).._ZW_M(170).._ZW_M(171)))_ZW_ki._ZW_jW=20
+_ZW_ki._ZW_jY=Color3.fromRGB(200,200,200)_ZW_ki._ZW_jy=_ZW_kc
+local _ZW_kj=Instance.new(_ZW_iu((_ZW_M(228).._ZW_M(229))))_ZW_kj._ZW_jI=1
+_ZW_kj._ZW_jF=UDim2.new(0,24,0,24)_ZW_kj._ZW_jG=UDim2.new(1,-32,0.5,-12)_ZW_kj._ZW_jU=Enum._ZW_jU.GothamBold
+_ZW_kj._ZW_jV=_ZW_iu((_ZW_M(231).._ZW_M(170).._ZW_M(171)))_ZW_kj._ZW_jW=18
+_ZW_kj._ZW_jY=Color3.fromRGB(200,200,200)_ZW_kj._ZW_jy=_ZW_kc
+local _ZW_kk=Instance.new(_ZW_iu((_ZW_M(210).._ZW_M(211))))_ZW_kk._ZW_jI=1
+_ZW_kk._ZW_jF=UDim2.new(1,-24,0,20)_ZW_kk._ZW_jG=UDim2.new(0,12,0,48)_ZW_kk._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_kk._ZW_jX=Enum._ZW_jX.Left
+_ZW_kk._ZW_jV=_ZW_iz
+_ZW_kk._ZW_jW=16
+_ZW_kk._ZW_jY=Color3.fromRGB(235,235,235)_ZW_kk._ZW_jy=_ZW_i6
+local _ZW_kl=Instance.new(_ZW_iu((_ZW_M(225).._ZW_M(226).._ZW_M(227))))_ZW_kl._ZW_jI=1
+_ZW_kl._ZW_jF=UDim2.new(1,-24,0,16)_ZW_kl._ZW_jG=UDim2.new(0,12,0,68)_ZW_kl._ZW_jU=Enum._ZW_jU.Gotham
+_ZW_kl._ZW_jX=Enum._ZW_jX.Left
+_ZW_kl._ZW_jV=_ZW_iA
+_ZW_kl._ZW_jW=12
+_ZW_kl._ZW_jY=Color3.fromRGB(160,160,160)_ZW_kl._ZW_jy=_ZW_i6
+local _ZW_i0=Instance.new(_ZW_iu((_ZW_M(221).._ZW_M(222))))_ZW_i0._ZW_jF=UDim2.new(1,-24,1,-110)_ZW_i0._ZW_jG=UDim2.new(0,12,0,96)_ZW_i0._ZW_jI=1
+_ZW_i0._ZW_jy=_ZW_i6
+local _ZW_km=Instance.new(_ZW_iu((_ZW_M(232).._ZW_M(233))),_ZW_i0)_ZW_km._ZW_kn=Enum._ZW_kn.Horizontal
+_ZW_km._ZW_ko=UDim.new(0,12)local _ZW_kp=Instance.new(_ZW_iu((_ZW_M(200).._ZW_M(201).._ZW_M(202).._ZW_M(94))))_ZW_kp._ZW_jF=UDim2.new(0.5,-6,1,0)_ZW_kp._ZW_jH=Color3.fromRGB(18,18,18)_ZW_kp._ZW_jJ=0
+_ZW_kp._ZW_jy=_ZW_i0
+local _ZW_kq=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))),_ZW_kp)_ZW_kq._ZW_jM=UDim.new(0,8)local _ZW_kr=Instance.new(_ZW_iu((_ZW_M(208).._ZW_M(209))),_ZW_kp)_ZW_kr._ZW_jP=1
+_ZW_kr._ZW_jO=Color3.fromRGB(35,35,35)local _ZW_ks=Instance.new(_ZW_iu((_ZW_M(234).._ZW_M(235))),_ZW_kp)_ZW_ks._ZW_kt=UDim.new(0,12)_ZW_ks._ZW_ku=UDim.new(0,12)_ZW_ks._ZW_kv=UDim.new(0,12)_ZW_ks._ZW_kw=UDim.new(0,12)local _ZW_kx=Instance.new(_ZW_iu((_ZW_M(210).._ZW_M(211))))_ZW_kx._ZW_jF=UDim2.new(1,0,0,20)_ZW_kx._ZW_jI=1
+_ZW_kx._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_kx._ZW_jX=Enum._ZW_jX.Left
+_ZW_kx._ZW_jV=_ZW_iB
+_ZW_kx._ZW_jW=14
+_ZW_kx._ZW_jY=Color3.fromRGB(235,235,235)_ZW_kx._ZW_jy=_ZW_kp
+local _ZW_ky=Instance.new(_ZW_iu((_ZW_M(225).._ZW_M(226).._ZW_M(227))))_ZW_ky._ZW_jF=UDim2.new(1,0,0,40)_ZW_ky._ZW_jG=UDim2.new(0,0,0,24)_ZW_ky._ZW_jI=1
+_ZW_ky._ZW_jU=Enum._ZW_jU.Gotham
+_ZW_ky._ZW_kz=true
+_ZW_ky._ZW_jX=Enum._ZW_jX.Left
+_ZW_ky._ZW_kA=Enum._ZW_kA.Top
+_ZW_ky._ZW_jW=11
+_ZW_ky._ZW_jY=Color3.fromRGB(170,170,170)_ZW_ky._ZW_jV=_ZW_iC
+_ZW_ky._ZW_jy=_ZW_kp
+local _ZW_kB=Instance.new(_ZW_iu((_ZW_M(236).._ZW_M(237).._ZW_M(238).._ZW_M(90))))_ZW_kB._ZW_jF=UDim2.new(1,0,0,32)_ZW_kB._ZW_jG=UDim2.new(0,0,1,-32)_ZW_kB._ZW_jH=Color3.fromRGB(68,76,255)_ZW_kB._ZW_jJ=0
+_ZW_kB._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_kB._ZW_jV=_ZW_iD
+_ZW_kB._ZW_jW=14
+_ZW_kB._ZW_jY=Color3.fromRGB(255,255,255)_ZW_kB._ZW_jy=_ZW_kp
+local _ZW_kC=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))),_ZW_kB)_ZW_kC._ZW_jM=UDim.new(0,6)local _ZW_kD=Instance.new(_ZW_iu((_ZW_M(221).._ZW_M(222))))_ZW_kD._ZW_jF=UDim2.new(0.5,-6,1,0)_ZW_kD._ZW_jI=1
+_ZW_kD._ZW_jy=_ZW_i0
+local _ZW_kE=Instance.new(_ZW_iu((_ZW_M(234).._ZW_M(235))),_ZW_kD)_ZW_kE._ZW_kt=UDim.new(0,4)_ZW_kE._ZW_ku=UDim.new(0,4)_ZW_kE._ZW_kv=UDim.new(0,4)_ZW_kE._ZW_kw=UDim.new(0,4)local _ZW_kF=Instance.new(_ZW_iu((_ZW_M(221).._ZW_M(222))))_ZW_kF._ZW_jF=UDim2.new(1,-8,0,64)_ZW_kF._ZW_jG=UDim2.new(0,0,0,-45)_ZW_kF._ZW_jH=Color3.fromRGB(18,18,18)_ZW_kF._ZW_jJ=0
+_ZW_kF._ZW_jy=_ZW_kD
+local _ZW_kG=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))),_ZW_kF)_ZW_kG._ZW_jM=UDim.new(0,8)local _ZW_kH=Instance.new(_ZW_iu((_ZW_M(218).._ZW_M(219).._ZW_M(220))),_ZW_kF)_ZW_kH._ZW_jP=1
+_ZW_kH._ZW_jO=Color3.fromRGB(35,35,35)local _ZW_kI=Instance.new(_ZW_iu((_ZW_M(239).._ZW_M(240).._ZW_M(241).._ZW_M(90))))_ZW_kI._ZW_jI=1
+_ZW_kI._ZW_jF=UDim2.new(0,40,0,40)_ZW_kI._ZW_jG=UDim2.new(0,10,0.5,-20)_ZW_kI._ZW_kJ=_ZW_iX
+_ZW_kI._ZW_jy=_ZW_kF
+local _ZW_kK=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))),_ZW_kI)_ZW_kK._ZW_jM=UDim.new(0,10)_ZW_kK._ZW_jy=_ZW_kI
+local _ZW_kL=Instance.new(_ZW_iu((_ZW_M(225).._ZW_M(226).._ZW_M(227))))_ZW_kL._ZW_jI=1
+_ZW_kL._ZW_jF=UDim2.new(1,-64,0,18)_ZW_kL._ZW_jG=UDim2.new(0,60,0,10)_ZW_kL._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_kL._ZW_jX=Enum._ZW_jX.Left
+_ZW_kL._ZW_jV=_ZW_iS
+_ZW_kL._ZW_jW=13
+_ZW_kL._ZW_jY=Color3.fromRGB(235,235,235)_ZW_kL._ZW_jy=_ZW_kF
+local _ZW_kM=Instance.new(_ZW_iu((_ZW_M(210).._ZW_M(211))))_ZW_kM._ZW_jI=1
+_ZW_kM._ZW_jF=UDim2.new(1,-64,0,14)_ZW_kM._ZW_jG=UDim2.new(0,60,0,28)_ZW_kM._ZW_jU=Enum._ZW_jU.Gotham
+_ZW_kM._ZW_jX=Enum._ZW_jX.Left
+_ZW_kM._ZW_jV=_ZW_iu((_ZW_M(242).._ZW_M(243).._ZW_M(244).._ZW_M(184)))..tostring(_ZW_iV)_ZW_kM._ZW_jW=11
+_ZW_kM._ZW_jY=Color3.fromRGB(180,180,180)_ZW_kM._ZW_jy=_ZW_kF
+local _ZW_kN=Instance.new(_ZW_iu((_ZW_M(210).._ZW_M(211))))_ZW_kN._ZW_jI=1
+_ZW_kN._ZW_jF=UDim2.new(1,-64,0,14)_ZW_kN._ZW_jG=UDim2.new(0,60,0,42)_ZW_kN._ZW_jU=Enum._ZW_jU.Gotham
+_ZW_kN._ZW_jX=Enum._ZW_jX.Left
+_ZW_kN._ZW_jV=_ZW_iu((_ZW_M(245).._ZW_M(246).._ZW_M(247))).._ZW_iW
+_ZW_kN._ZW_jW=11
+_ZW_kN._ZW_jY=Color3.fromRGB(150,150,150)_ZW_kN._ZW_jy=_ZW_kF
+local _ZW_kO=Instance.new(_ZW_iu((_ZW_M(210).._ZW_M(211))))_ZW_kO._ZW_jF=UDim2.new(1,0,0,16)_ZW_kO._ZW_jG=UDim2.new(0,0,0,25)_ZW_kO._ZW_jI=1
+_ZW_kO._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_kO._ZW_jX=Enum._ZW_jX.Left
+_ZW_kO._ZW_jV=_ZW_iE
+_ZW_kO._ZW_jW=13
+_ZW_kO._ZW_jY=Color3.fromRGB(220,220,220)_ZW_kO._ZW_jy=_ZW_kD
+local _ZW_kP=Instance.new(_ZW_iu((_ZW_M(248).._ZW_M(249))))_ZW_kP._ZW_jF=UDim2.new(1,0,0,32)_ZW_kP._ZW_jG=UDim2.new(0,0,0,45)_ZW_kP._ZW_jH=Color3.fromRGB(24,24,24)_ZW_kP._ZW_jJ=0
+_ZW_kP._ZW_jU=Enum._ZW_jU.Gotham
+_ZW_kP._ZW_jX=Enum._ZW_jX.Left
+_ZW_kP._ZW_kQ=_ZW_iF
+_ZW_kP._ZW_kR=Color3.fromRGB(90,90,90)_ZW_kP._ZW_jV=_ZW_M(86)_ZW_kP._ZW_jW=12
+_ZW_kP._ZW_jY=Color3.fromRGB(230,230,230)_ZW_kP._ZW_jy=_ZW_kD
+local _ZW_kS=Instance.new(_ZW_iu((_ZW_M(205).._ZW_M(206).._ZW_M(207))),_ZW_kP)_ZW_kS._ZW_jM=UDim.new(0,8)local _ZW_kT=Instance.new(_ZW_iu((_ZW_M(208).._ZW_M(209))),_ZW_kP)_ZW_kT._ZW_jP=1
+_ZW_kT._ZW_jO=Color3.fromRGB(45,45,45)local _ZW_kU=Instance.new(_ZW_iu((_ZW_M(228).._ZW_M(229))))_ZW_kU._ZW_jF=UDim2.new(0,80,0,32)_ZW_kU._ZW_jG=UDim2.new(0,0,0,85)_ZW_kU._ZW_jH=Color3.fromRGB(40,40,40)_ZW_kU._ZW_jJ=0
+_ZW_kU._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_kU._ZW_jV=_ZW_iG
+_ZW_kU._ZW_jW=13
+_ZW_kU._ZW_jY=Color3.fromRGB(230,230,230)_ZW_kU._ZW_jy=_ZW_kD
+local _ZW_kV=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))),_ZW_kU)_ZW_kV._ZW_jM=UDim.new(0,16)local _ZW_kW=Instance.new(_ZW_iu((_ZW_M(228).._ZW_M(229))))_ZW_kW._ZW_jF=UDim2.new(1,0,0,32)_ZW_kW._ZW_jG=UDim2.new(0,0,1,-32)_ZW_kW._ZW_jH=Color3.fromRGB(30,30,30)_ZW_kW._ZW_jJ=0
+_ZW_kW._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_kW._ZW_jV=_ZW_iH
+_ZW_kW._ZW_jW=14
+_ZW_kW._ZW_jY=Color3.fromRGB(230,230,230)_ZW_kW._ZW_jy=_ZW_kD
+local _ZW_kX=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))),_ZW_kW)_ZW_kX._ZW_jM=UDim.new(0,8)_ZW_iP:Create(_ZW_i6,TweenInfo.new(0.35,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{_ZW_jG=UDim2.new(0.5,0,0.5,0)}):Play()local _ZW_kY=false
+_ZW_ki.MouseButton1Click:Connect(function()local _ZW_kZ
+if _ZW_kY then
+_ZW_i0._ZW_k0=true
+_ZW_kk._ZW_k0=true
+_ZW_kl._ZW_k0=true
+_ZW_kZ=_ZW_j9
+else
+_ZW_i0._ZW_k0=false
+_ZW_kk._ZW_k0=false
+_ZW_kl._ZW_k0=false
+_ZW_kZ=UDim2.new(0,500,0,40)end
+_ZW_iP:Create(_ZW_i6,TweenInfo.new(0.25,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{_ZW_jF=_ZW_kZ}):Play()_ZW_kY=not _ZW_kY
+end)local function _ZW_k1()local _ZW_k2=_ZW_iP:Create(_ZW_i6,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.In),{_ZW_jG=UDim2.new(0.5,0,1.5,0)})_ZW_k2:Play()_ZW_k2.Completed:Connect(function()_ZW_j6:Destroy()end)end
+_ZW_kj.MouseButton1Click:Connect(_ZW_k1)_ZW_kB.MouseButton1Click:Connect(function()if setclipboard then
+setclipboard(_ZW_iN)end
+_ZW_jz(_ZW_iu((_ZW_M(250).._ZW_M(251))))end)_ZW_kU.MouseButton1Click:Connect(function()local _ZW_jr,_ZW_k3=pcall(function()local _ZW_js=loadstring(game:HttpGet(_ZW_iu((_ZW_M(252).._ZW_M(253).._ZW_M(254).._ZW_M(255)))))()return _ZW_js.getLink(_ZW_i2._ZW_i3,_ZW_i2._ZW_i5,_ZW_i2._ZW_i4)end)if _ZW_jr and _ZW_k3 then
+if setclipboard then
+setclipboard(_ZW_k3)end
+_ZW_jz(_ZW_iu((_ZW_M(256).._ZW_M(257).._ZW_M(258))))else
+_ZW_jz(_ZW_iu((_ZW_M(190).._ZW_M(191))))end
+end)local function _ZW_k4()local _ZW_k5=(_ZW_kP._ZW_jV or _ZW_M(86)):gsub(_ZW_iu((_ZW_M(259).._ZW_M(260))),_ZW_M(86))if _ZW_k5==_ZW_M(86)then
+_ZW_jz(_ZW_iu((_ZW_M(188).._ZW_M(189))))return
+end
+if _ZW_jq(_ZW_k5)then
+local _ZW_jo=_ZW_jn()local _ZW_k6=false
+for _,_ZW_k7 in ipairs(_ZW_jo)do
+if _ZW_k7==_ZW_k5 then
+_ZW_k6=true
+break
+end
+end
+if not _ZW_k6 then
+table.insert(_ZW_jo,_ZW_k5)_ZW_jp(_ZW_jo)end
+_ZW_jz(_ZW_iu((_ZW_M(185).._ZW_M(186).._ZW_M(187).._ZW_M(94))))local _ZW_k8=_ZW_iP:Create(_ZW_i6,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.In),{_ZW_jG=UDim2.new(0.5,0,1.5,0)})_ZW_k8:Play()_ZW_k8.Completed:Connect(function()_ZW_j6:Destroy()_ZW_i6()end)else
+local _ZW_jo=_ZW_jn()local _ZW_k9={}for _,_ZW_k7 in ipairs(_ZW_jo)do
+if _ZW_k7~=_ZW_k5 then
+table.insert(_ZW_k9,_ZW_k7)end
+end
+_ZW_jp(_ZW_k9)_ZW_jz(_ZW_iu((_ZW_M(261).._ZW_M(262).._ZW_M(194))))end
+end
+_ZW_kW.MouseButton1Click:Connect(_ZW_k4)_ZW_kP.FocusLost:Connect(function(enterPressed)if enterPressed then
+_ZW_k4()end
+end)end
+local function _ZW_la()local _ZW_lb=Instance.new(_ZW_iu((_ZW_M(263).._ZW_M(264).._ZW_M(265))))_ZW_lb.Name=_ZW_iu((_ZW_M(266).._ZW_M(267).._ZW_M(268).._ZW_M(106)))_ZW_lb._ZW_jv=false
+_ZW_lb._ZW_jw=Enum._ZW_jw.Global
+_ZW_lb._ZW_jx=6
+_ZW_lb._ZW_jy=_ZW_iO
+local _ZW_lc=Instance.new(_ZW_iu((_ZW_M(200).._ZW_M(201).._ZW_M(202).._ZW_M(94))))_ZW_lc.Name=_ZW_iu((_ZW_M(269).._ZW_M(270)))_ZW_lc._ZW_jE=Vector2.new(0.5,0.5)_ZW_lc._ZW_jG=UDim2.new(0.5,0,0.5,0)_ZW_lc._ZW_jF=UDim2.new(0,260,0,90)_ZW_lc._ZW_jH=_ZW_i8._ZW_i9._ZW_ja
+_ZW_lc._ZW_jI=1
+_ZW_lc._ZW_jJ=0
+_ZW_lc._ZW_jK=100
+_ZW_lc._ZW_jy=_ZW_lb
+local _ZW_ld=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))))_ZW_ld._ZW_jM=UDim.new(0,10)_ZW_ld._ZW_jy=_ZW_lc
+local _ZW_le=Instance.new(_ZW_iu((_ZW_M(208).._ZW_M(209))))_ZW_le._ZW_jO=Color3.fromRGB(60,60,60)_ZW_le._ZW_jP=1
+_ZW_le._ZW_jQ=1
+_ZW_le._ZW_jy=_ZW_lc
+local _ZW_kf=Instance.new(_ZW_iu((_ZW_M(225).._ZW_M(226).._ZW_M(227))))_ZW_kf._ZW_jI=1
+_ZW_kf._ZW_jF=UDim2.new(1,-20,0,24)_ZW_kf._ZW_jG=UDim2.new(0,10,0,8)_ZW_kf._ZW_jU=Enum._ZW_jU.GothamSemibold
+_ZW_kf._ZW_jV=_ZW_ix
+_ZW_kf._ZW_jW=16
+_ZW_kf._ZW_jY=_ZW_i8._ZW_i9._ZW_jb
+_ZW_kf._ZW_jX=Enum._ZW_jX.Center
+_ZW_kf._ZW_jZ=1
+_ZW_kf._ZW_jK=101
+_ZW_kf._ZW_jy=_ZW_lc
+local _ZW_lf=Instance.new(_ZW_iu((_ZW_M(210).._ZW_M(211))))_ZW_lf._ZW_jI=1
+_ZW_lf._ZW_jF=UDim2.new(1,-20,0,18)_ZW_lf._ZW_jG=UDim2.new(0,10,0,34)_ZW_lf._ZW_jU=Enum._ZW_jU.Gotham
+_ZW_lf._ZW_jV=_ZW_iy
+_ZW_lf._ZW_jW=13
+_ZW_lf._ZW_jY=Color3.fromRGB(200,200,200)_ZW_lf._ZW_jX=Enum._ZW_jX.Center
+_ZW_lf._ZW_jZ=1
+_ZW_lf._ZW_jK=101
+_ZW_lf._ZW_jy=_ZW_lc
+local _ZW_lg=Instance.new(_ZW_iu((_ZW_M(200).._ZW_M(201).._ZW_M(202).._ZW_M(94))))_ZW_lg._ZW_jF=UDim2.new(1,-20,0,6)_ZW_lg._ZW_jG=UDim2.new(0,10,1,-16)_ZW_lg._ZW_jH=Color3.fromRGB(30,30,30)_ZW_lg._ZW_jJ=0
+_ZW_lg._ZW_jK=101
+_ZW_lg._ZW_jI=1
+_ZW_lg._ZW_jy=_ZW_lc
+local _ZW_jS=Instance.new(_ZW_iu((_ZW_M(216).._ZW_M(217))))_ZW_jS._ZW_jM=UDim.new(0,3)_ZW_jS._ZW_jy=_ZW_lg
+local _ZW_lh=Instance.new(_ZW_iu((_ZW_M(221).._ZW_M(222))))_ZW_lh._ZW_jF=UDim2.new(0,0,1,0)_ZW_lh._ZW_jG=UDim2.new(0,0,0,0)_ZW_lh._ZW_jH=Color3.fromRGB(120,120,255)_ZW_lh._ZW_jJ=0
+_ZW_lh._ZW_jK=102
+_ZW_lh._ZW_jI=1
+_ZW_lh._ZW_jy=_ZW_lg
+local _ZW_li=Instance.new(_ZW_iu((_ZW_M(205).._ZW_M(206).._ZW_M(207))))_ZW_li._ZW_jM=UDim.new(0,3)_ZW_li._ZW_jy=_ZW_lh
+local _ZW_j0=TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out)_ZW_iP:Create(_ZW_lc,_ZW_j0,{_ZW_jI=0.15}):Play()_ZW_iP:Create(_ZW_le,_ZW_j0,{_ZW_jQ=0.5}):Play()_ZW_iP:Create(_ZW_kf,_ZW_j0,{_ZW_jZ=0}):Play()_ZW_iP:Create(_ZW_lf,_ZW_j0,{_ZW_jZ=0}):Play()_ZW_iP:Create(_ZW_lg,_ZW_j0,{_ZW_jI=0}):Play()_ZW_iP:Create(_ZW_lh,_ZW_j0,{_ZW_jI=0}):Play()local _ZW_lj=true
+task.spawn(function()while _ZW_lj and _ZW_lh do
+_ZW_lh._ZW_jF=UDim2.new(0,0,1,0)_ZW_iP:Create(_ZW_lh,TweenInfo.new(0.7,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{_ZW_jF=UDim2.new(1,0,1,0)}):Play()task.wait(0.75)end
+end)task.spawn(function()local _ZW_jr,_ZW_lk=_ZW_jt()_ZW_lj=false
+task.wait(0.2)local _ZW_j1=TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.In)local _ZW_j2=_ZW_iP:Create(_ZW_lc,_ZW_j1,{_ZW_jI=1})local _ZW_j3=_ZW_iP:Create(_ZW_le,_ZW_j1,{_ZW_jQ=1})local _ZW_j4=_ZW_iP:Create(_ZW_kf,_ZW_j1,{_ZW_jZ=1})local _ZW_ll=_ZW_iP:Create(_ZW_lf,_ZW_j1,{_ZW_jZ=1})local _ZW_lm=_ZW_iP:Create(_ZW_lg,_ZW_j1,{_ZW_jI=1})local _ZW_ln=_ZW_iP:Create(_ZW_lh,_ZW_j1,{_ZW_jI=1})_ZW_j2:Play(); _ZW_j3:Play(); _ZW_j4:Play(); _ZW_ll:Play(); _ZW_lm:Play(); _ZW_ln:Play()_ZW_j2.Completed:Connect(function()_ZW_lb:Destroy()if _ZW_jr and _ZW_lk then
+_ZW_jz(_ZW_iu((_ZW_M(185).._ZW_M(186).._ZW_M(187).._ZW_M(94))))_ZW_i6()else
+_ZW_jz(_ZW_iu((_ZW_M(261).._ZW_M(262).._ZW_M(194))))_ZW_j5()end
+end)end)end
+_ZW_la()
